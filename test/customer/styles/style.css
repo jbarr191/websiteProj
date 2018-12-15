@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {background:white;}
+
+.main_wrapper {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background: black;
+}
+
+.header_wrapper {
+	width: 1000px;
+	height: 175px;
+	margin: auto;
+}
+
+
+#logo {float:left;}
+#banner {float:right;}
+
+.menubar {
+	width:1000px;
+	height:50px;
+	background:gray;
+	color:white;
+}
+
+#menu {
+	padding: 0;
+	margin: 0;
+	line-height: 48px;
+	float: left;
+}
+
+#menu li {
+	list-style: none;
+	display: inline;
+
+}
+
+#menu a {
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	margin: 4px;
+	font-size: 16px;
+	font-family: Courier;
+}
+
+#menu a:hover {color:orange; text-decoration: underline; font-weight: bolder}
+
+#form {float: right; padding-right: 8px; line-height: 48px;}
+
+.content_wrapper {
+	width: 1000px;
+	height:auto;
+	margin: auto;
+	background: orange;
+}
+
+#content_area {
+	width:800px;
+	float:left;
+	background:orange;
+}
+
+#sidebar {
+	width:200px;
+	background:black;
+	float:right;
+}
+#sidebar_title{
+	background:white;
+	color:black;
+	font-size:22px;
+	font-family:arial;
+	padding:10px;
+	text-align:center;
+
+}
+#comment_insert{
+	width:400px;
+	float:left;
+	height:300px;
+	color:white;
+}
+
+#comment_text{
+	padding:15px;
+	float:right;
+
+}
+
+#gens{
+	text-align:left;
+}
+#gens li { list-style:none; margin:5px;}
+
+#gens a {color:white; padding:15px; font-size: 20x; font-family: Comic Sans Ms;}
+
+#gens a:hover {color:orange; font-weight:bolder; text-decoration:underline;}
+
+#products_box{
+	width:780px;
+	text-align:center;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+
+#single_product{float:left; margin-left:30px; padding:10px;}
+
+#single_product img {border:2px solid black;}
+
+#shopping_cart {width:800px; height:50px; background:black; color:white;}
+
+#footer {
+	width: 1000px;
+	height: 100px;
+	background: gray;
+	clear: both;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 736px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapseContent {
+  width: 700px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
